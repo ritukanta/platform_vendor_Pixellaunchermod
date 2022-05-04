@@ -5,8 +5,8 @@
 || Made by Team Files
 [Telegram Channel](https://t.me/modulesrepo)
  
-[Github](https://github.com/saitamasahil/PixelLauncherMOD)
-||
+[Github](https://github.com/saitamasahil/PixelLauncherMOD) ||
+
 
 ### Clone
 Clone this repo into vendor/PixelLauncherMod(only)
