@@ -1,6 +1,7 @@
 include $(call first-makefiles-under,$(LOCAL_PATH))
 
 PRODUCT_COPY_FILES += \
+    vendor/PixelLauncherMod/bin/pixel-enhancer:$(TARGET_COPY_OUT_SYSTEM)/bin/pixel-enhancer \
     vendor/PixelLauncherMod/product/etc/permissions/privapp-permissions-com.google.android.apps.nexuslauncher.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-com.google.android.apps.nexuslauncher.xml \
     vendor/PixelLauncherMod/product/etc/permissions/privapp-permissions-com.google.android.as.oss.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-com.google.android.as.oss.xml \
     vendor/PixelLauncherMod/product/etc/permissions/privapp-permissions-com.google.android.as.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-com.google.android.as.xml \
@@ -15,7 +16,8 @@ PRODUCT_COPY_FILES += \
     vendor/PixelLauncherMod/product/etc/sysconfig/preinstalled-packages-platform-handheld-product.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/preinstalled-packages-platform-handheld-product.xml \
     vendor/PixelLauncherMod/product/etc/sysconfig/preinstalled-packages-platform-overlays.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/preinstalled-packages-platform-overlays.xml \
     vendor/PixelLauncherMod/product/etc/sysconfig/preinstalled-packages-product-pixel-2017-and-newer.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/preinstalled-packages-product-pixel-2017-and-newer.xml \
-    vendor/PixelLauncherMod/product/etc/default-permissions/teamfiles.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/default-permissions/teamfiles.xml \
+    vendor/PixelLauncherMod/product/etc/sysconfig/nga.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/nga.xml \
+    vendor/PixelLauncherMod/product/etc/default-permissions/saitama.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/default-permissions/saitama.xml \
     vendor/PixelLauncherMod/product/etc/preferred-apps/google.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/preferred-apps/google.xml \
     vendor/PixelLauncherMod/system_ext/priv-app/QuickAccesswallet/oat/arm64/QuickAccesswallet.odex:$(TARGET_COPY_OUT_SYSTEM_EXT)/priv-app/QuickAccesswallet/oat/arm64/QuickAccesswallet.odex \
     vendor/PixelLauncherMod/system_ext/priv-app/QuickAccesswallet/oat/arm64/QuickAccesswallet.vdex:$(TARGET_COPY_OUT_SYSTEM_EXT)/priv-app/QuickAccesswallet/oat/arm64/QuickAccesswallet.vdex \
