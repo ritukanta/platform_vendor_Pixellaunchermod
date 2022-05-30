@@ -28,8 +28,8 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     PixelThemesStub \
-    QuickAccesswallet \
-    WallpaperPickerGoogleRelease \
+    ThemedIconsOverlay \
     PixelRecentsProvider \
     NexusLauncherRelease \
-    overlay
+    QuickAccesswallet \
+    WallpaperPickerGoogleRelease
