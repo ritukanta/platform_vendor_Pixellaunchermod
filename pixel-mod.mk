@@ -31,5 +31,5 @@ PRODUCT_PACKAGES += \
     ThemedIconsOverlay \
     PixelRecentsProvider \
     NexusLauncherRelease \
-    QuickAccesswallet \
+    QuickAccessWallet \
     WallpaperPickerGoogleRelease
