@@ -13,7 +13,7 @@ android_app_import {
 	name: "NexusLauncherRelease",
 	owner: "google",
 	apk: "product/priv-app/NexusLauncherRelease/NexusLauncherRelease.apk",
-	overrides: ["Home", "Launcher", "Launcher2", "Launcher3", "Launcher3QuickStep", "Lawnchair"],
+	overrides: ["Home", "Launcher", "Launcher2", "Launcher3", "Launcher3QuickStep", "Lawnchair", "Trebuchet", "ParanoidLauncher"],
 	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
